@@ -36,6 +36,16 @@ All hyperparameters, including the number of layers and other model-specific set
 
 The datasets used in our experiments include **Chameleon**, **Squirrel**, **Film**, **Wiki**, **Texas**, and **Wisconsin**. Please place all dataset files in the `data` directory.
 
+| Datasets   | # Samples | # Edges | # Features | # Classes |
+|------------|-----------|---------|------------|-----------|
+| Chameleon  | 2,277     | 36,101  | 2,325      | 5         |
+| Film       | 7,600     | 33,544  | 932        | 5         |
+| Squirrel   | 5,201     | 217,073 | 2,089      | 5         |
+| Texas      | 183       | 309     | 1,703      | 5         |
+| Wiki       | 2,405     | 17,981  | 4,973      | 17        |
+| Wisconsin  | 251       | 499     | 1,703      | 5         |
+
+
 You can download the datasets from the following [Google Drive link](https://drive.google.com/drive/folders/1DQnq850E5xl_PDpV7XR_H904GxRFEW1K).
 
 ### Running the Code
